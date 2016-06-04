@@ -24,6 +24,11 @@ public class ContentView extends Composite {
 		contentPanel.add(login);
 	}
 
+	public void openAdminView(){
+		AdminView ad = new AdminView();
+		contentPanel.add(ad);
+	}
+	
 }
 
 

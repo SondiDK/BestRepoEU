@@ -8,10 +8,15 @@
 					<g:Image url="http://i.imgur.com/hGP1Nzj.gif" width="200px" height="107px"/> 
 				<g:TextBox styleName="style.usernameTextBox" ui:field="usernameTxtBox" alignment="CENTER" />
 				<g:PasswordTextBox styleName="white-txt input" ui:field="passwordTxtBox" alignment="CENTER" />
-				<g:Button styleName="button" width="100%" text="Login" ui:field="loginBtn" />
+				<g:Button styleName="button" width="25%" text="Login" ui:field="loginBtn" />
 			</g:VerticalPanel>
 		</g:VerticalPanel>
-</ui:UiBinder> 
+		
 
+		
+		
+		
+		
+</ui:UiBinder> 
 
 		
