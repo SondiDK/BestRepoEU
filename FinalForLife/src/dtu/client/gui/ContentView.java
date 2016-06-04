@@ -11,7 +11,11 @@ public class ContentView extends Composite {
 	
 	public ContentView(){
 		this.contentPanel = new FlowPanel();
+	contentPanel.setStylePrimaryName("yep");
 		initWidget(this.contentPanel);
+	
+		
+		
 	}
 	
 	
