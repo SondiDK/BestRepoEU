@@ -14,7 +14,11 @@ public class MainView {
 		
 		
 	contentView= new ContentView();
+
+	
+
 	RootPanel.get().add(contentView);	
+	
 	
 	}
 	
