@@ -1,15 +1,16 @@
 package dtu.client.gui;
 
 import com.google.gwt.user.client.ui.Composite;
+import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class ContentView extends Composite {
 	
-	VerticalPanel contentPanel;
+	FlowPanel contentPanel;
 	
 	
 	public ContentView(){
-		this.contentPanel = new VerticalPanel();
+		this.contentPanel = new FlowPanel();
 		initWidget(this.contentPanel);
 	}
 	
