@@ -30,7 +30,7 @@ public class LoginView extends Composite {
 		initWidget(uiBinder.createAndBindUi(this));
 
 		usernameTxtBox.getElement().setPropertyString("placeholder",  "Brugernavn");
-		passwordTxtBox.getElement().setPropertyString("placeholder", "password");
+		passwordTxtBox.getElement().setPropertyString("placeholder", "Kodeord");
 		
 		
 	}

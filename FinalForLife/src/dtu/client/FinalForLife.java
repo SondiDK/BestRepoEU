@@ -1,6 +1,6 @@
 package dtu.client;
 
-import dtu.client.controller.MainView;
+import dtu.client.gui.MainView;
 import dtu.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
@@ -26,6 +26,6 @@ public class FinalForLife implements EntryPoint {
 	
 	
 	public void onModuleLoad() {
-		new MainView().run();
+		new MainView();
 	}
 }

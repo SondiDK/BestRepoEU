@@ -4,11 +4,12 @@
 	<ui:style>
 	</ui:style>
 		<g:VerticalPanel width="100%" height="100%" verticalAlignment="ALIGN_TOP" horizontalAlignment="ALIGN_CENTER">
-			<g:VerticalPanel styleName="cardbox center"	spacing="15" width="30%" height="170px" horizontalAlignment="ALIGN_CENTER" >
+			<g:VerticalPanel styleName="cardbox center"	spacing="15" width="40%" height="170px" horizontalAlignment="ALIGN_CENTER" >
 					<g:Image url="http://i.imgur.com/hGP1Nzj.gif" width="200px" height="107px"/> 
-				<g:TextBox styleName="style.usernameTextBox" ui:field="usernameTxtBox" alignment="CENTER" />
-				<g:PasswordTextBox styleName="white-txt input" ui:field="passwordTxtBox" alignment="CENTER" />
-				<g:Button styleName="button" width="25%" text="Login" ui:field="loginBtn" />
+				<g:TextBox styleName="usernameTextBox" ui:field="usernameTxtBox" alignment="CENTER" />
+				
+				<g:PasswordTextBox styleName="passbox" ui:field="passwordTxtBox" alignment="CENTER" />
+				<g:Button styleName="logonbutton"  width="25%" text="Login" ui:field="loginBtn" />
 			</g:VerticalPanel>
 		</g:VerticalPanel>
 		

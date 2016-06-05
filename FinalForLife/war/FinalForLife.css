@@ -3,11 +3,78 @@
 
 /** Example rules used by the template application (remove for your app) */
 html {
-	margin-left: auto;
-	margin-right: auto;
-	horizontal-alignment: center;
-	background-color: rgb(200, 160, 160);
 
+}
+
+body {
+	
+	background: url("https://pbs.twimg.com/profile_images/633856419490480128/58pBUIoE_400x400.png");
+	background-color: #fE6E6DC !important;
+	
+}
+
+
+h1 {
+
+    text-align: center;
+	
+
+
+
+	font: 40px Helvetica, Sans-Serif;
+
+	letter-spacing: -5px;
+
+	color: black; 
+
+}
+
+
+
+
+
+.cardbox {
+	
+	border-radius: 25px;
+    background: #73AD21;
+    padding: 50px; 
+    width: 400px;
+    height: 400px; 
+
+	
+
+	background-color: #00628B;
+	
+	
+
+}
+
+ .usernameTextBox, .passbox {
+    border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+    padding-left:10px; 
+    padding-right:10px; 
+    
+}
+
+
+
+.logonbutton {
+	margin: 20px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
 }
 
 
