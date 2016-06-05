@@ -15,7 +15,7 @@ public class MainView {
 
 	
 
-	//RootPanel.get().add(contentView);	
+	//RootPanel.get().add(new AdminView());	
 	RootPanel.get().add(new LoginView());
 	
 	}
