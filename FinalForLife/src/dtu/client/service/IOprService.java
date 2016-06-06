@@ -1,4 +1,4 @@
-package dtu.client.server;
+package dtu.client.service;
 
 import java.util.List;
 

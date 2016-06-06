@@ -1,4 +1,4 @@
-package dtu.client.server;
+package dtu.client.service;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.ServiceDefTarget;
