@@ -4,7 +4,7 @@ import com.google.gwt.user.client.ui.RootPanel;
 
 public class MainView {
 	
-	private ContentView contentView;
+	private ContentView contentView = new ContentView();
 	
 	
 	
@@ -16,7 +16,7 @@ public class MainView {
 	
 
 	//RootPanel.get().add(new AdminView());	
-	RootPanel.get().add(new LoginView());
+	RootPanel.get().add(new LoginView(contentView));
 	
 	}
 	
