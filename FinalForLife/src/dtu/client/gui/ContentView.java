@@ -4,6 +4,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
+import dtu.client.gui.AdminView.IAdminViewCallback;
 import dtu.client.gui.LoginView.ILoginViewCallback;
 
 //Hver view skal have sit eget interface der definere de enkelte funktioner
@@ -13,7 +14,7 @@ import dtu.client.gui.LoginView.ILoginViewCallback;
 
 
 
-public class ContentView extends Composite implements ILoginViewCallback {
+public class ContentView extends Composite implements ILoginViewCallback, IAdminViewCallback {
 	
 	FlowPanel contentPanel;
 	
@@ -35,7 +36,7 @@ public class ContentView extends Composite implements ILoginViewCallback {
 
 	@Override
 	public void openAdminView(){
-		AdminView ad = new AdminView();
+		AdminView ad = new AdminView(this);
 		contentPanel.add(ad);
 	}
 	

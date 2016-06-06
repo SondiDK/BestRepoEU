@@ -36,7 +36,7 @@ public class LoginView extends Composite {
 	
 	
 	
-	public LoginView(ILoginViewCallback callback) {
+	public LoginView(final ILoginViewCallback callback) {
 
 
 		initWidget(uiBinder.createAndBindUi(this));
@@ -56,13 +56,18 @@ public class LoginView extends Composite {
 //					}
 //					);
 
-					
+		loginBtn.addClickHandler(new ClickHandler() {
+			@Override
+			public void onClick(ClickEvent event) {
+				callback.openAdminView();
+			}
+		});
 		
 		
 		
 	}
 	
-	
+
 	
 	
 
