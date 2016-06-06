@@ -23,7 +23,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
  */
 public class FinalForLife implements EntryPoint {
 
-	
+	//Skede
 	
 	public void onModuleLoad() {
 		new MainView().run();
