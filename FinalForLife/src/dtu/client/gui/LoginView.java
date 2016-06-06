@@ -32,6 +32,13 @@ public class LoginView extends Composite {
 		usernameTxtBox.getElement().setPropertyString("placeholder",  "Brugernavn");
 		passwordTxtBox.getElement().setPropertyString("placeholder", "Kodeord");
 		
+		String a = usernameTxtBox.getText();
+		String b = usernameTxtBox.getText();
+		
+		if (a.equals(b)) {
+			
+		}
+		
 		
 	}
 	
