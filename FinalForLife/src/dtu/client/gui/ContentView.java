@@ -36,6 +36,7 @@ public class ContentView extends Composite implements ILoginViewCallback, IAdmin
 
 	@Override
 	public void openAdminView(){
+		this.contentPanel.clear();
 		AdminView ad = new AdminView(this);
 		contentPanel.add(ad);
 	}

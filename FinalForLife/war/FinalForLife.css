@@ -15,22 +15,28 @@ body {
 
 
 h1 {
-
     text-align: center;
-	
-
-
-
 	font: 40px Helvetica, Sans-Serif;
-
 	letter-spacing: -5px;
-
 	color: black; 
 
 }
 
-
-
+.menubar{
+	
+	position:relative;
+	
+	
+}
+nav{
+line-height: 20px;
+	background-color: #eeeeee;
+	min-height: 400px; 
+	width: 100px;
+	float: left;
+	padding: 5px;	
+	
+}
 
 
 .cardbox {
@@ -40,9 +46,6 @@ h1 {
     padding: 50px; 
     width: 400px;
     height: 400px; 
-
-	
-
 	background-color: #00628B;
 	
 	

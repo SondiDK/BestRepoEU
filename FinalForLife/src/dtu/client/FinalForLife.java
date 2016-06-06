@@ -26,6 +26,6 @@ public class FinalForLife implements EntryPoint {
 	
 	
 	public void onModuleLoad() {
-		new MainView();
+		new MainView().run();
 	}
 }
